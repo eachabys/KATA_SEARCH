@@ -7,13 +7,14 @@ Given two text files in the Input directory consisting of a list of words, and a
 
 ### Input
 
-The first line of the text file (kata_words_input.txt) will consist of the list of words to be found. 
+The first line of the text file (kata_words_input.txt) consists of the list of words to be found. 
+  
+    BONES,KHAN,KIRK,SCOTTY,SPOCK,SULU,UHURA
 
 The second text file (kata_letters_input.txt) represents a grid of letters, corresponding to the letters grid below. It will always be square, and all words in the list will always be present in the grid. Words may be located horizontally, vertically, diagonally, and both forwards and backwards. Words will never "wrap" around the edges of the grid.
 
-The following is an example of the format of the input file:
-
-    BONES,KHAN,KIRK,SCOTTY,SPOCK,SULU,UHURA
+The following is an example of the format of the input file (kata_letters_input.txt) :
+  
     U,M,K,H,U,L,K,I,N,V,J,O,C,W,E
     L,L,S,H,K,Z,Z,W,Z,C,G,J,U,Y,G
     H,S,U,P,J,P,R,J,D,H,S,B,X,T,G
