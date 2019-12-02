@@ -6,7 +6,7 @@ https://github.com/PillarTechnology/kata-word-search
 
 Given two text files in the Input directory consisting of a list of words, and a series of rows of single-character lists representing the word search grid, the solution searches for the words in the grid of letters and returns a set of x,y coordinates for each letter of a word found.
 
-###Input
+### Input
 
 The first line of the text file will consist of the list of words to be found. 
 
@@ -31,7 +31,7 @@ The following is an example of the format of the input file:
     W,Z,M,I,S,U,K,U,R,B,I,D,U,X,S
     K,Y,L,B,Q,Q,P,M,D,F,C,K,E,A,B
 
-###Tests
+### Tests
 
 This directory contains the final output of the solution to the kata-word_problem. 
 The output of the program is the location of each word found, each on a separate line. The location will be represented as a series of x,y coordinates, where both x and y start at zero at the top-left of the grid. From this position both x and y will increase, i.e. they will never be negative.
