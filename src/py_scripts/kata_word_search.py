@@ -379,15 +379,11 @@ def fix_diagxyright(xyr,words,letters):
 
 def output(xyl,xyr,words):
     """ Output the search results into output *.txt files"""
-    #prior to output sort the results acording to the input list
-    #words_all=words_all[0].split(',')
-
     key_wordsxy=horver_output_prep(words,letters)[0]+ fix_diagxyleft(xyl,words,letters)
     key_wordsxy+=fix_diagxyright(xyr,words,letters)
-
     output_words=[]
     words0=retrieve_input(words,letters)[0]
-    #sort output 
+    #sort the output acording to the input words list
     for i in range(len(words0)):
         for j in range(len(key_wordsxy)):
             if words0[i] in key_wordsxy[j]:
