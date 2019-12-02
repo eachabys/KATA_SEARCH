@@ -33,7 +33,7 @@ The following is an example of the format of the input file (kata_letters_input.
 
 ### Tests
 
-This directory contains the [final output](https://github.com/eachabys/KATA_SEARCH/tree/master/tests/final_output) of the solution to the kata-word_problem. 
+This directory contains the [final output](https://github.com/eachabys/KATA_SEARCH/tree/master/tests/test1_output) of the solution to the kata-word-search problem. 
 The output of the program is the location of each word found, each on a separate line. The location will be represented as a series of x,y coordinates, where both x and y start at zero at the top-left of the grid. From this position both x and y will increase, i.e. they will never be negative.
 
 Given the example input above, the following output can be found in the directory tests/final_output, which represents the output to the word_search problem.  
@@ -50,19 +50,17 @@ In addition to the final output presented above, the tests directory contains in
 
 ### SRC
 
-The solution to this problem was written in Python v.3.6. It was broken into 3 parts which can be found in the [py_scripts](https://github.com/eachabys/KATA_SEARCH/tree/master/src/py_scripts) subdirectory of the [src](https://github.com/eachabys/KATA_SEARCH/tree/master/src) directory. Each python script performs a search in different directions:
-kata_word_search_01.py (performs only horizontal and vertical searches)
-kata_word_search_02.py (performs only diagonal search in the direction parallel to the main dexter diagonal)
-kata_word_search_03.py (performs only diagonal search in the direction perpendicular to the main dexter diagonal)
+The solution to this problem was written in Python v.3.6. The python script can be found in the [py_scripts](https://github.com/eachabys/KATA_SEARCH/tree/master/src/py_scripts) subdirectory of the [src](https://github.com/eachabys/KATA_SEARCH/tree/master/src) directory. 
 
-To run the solutions one can use the command line and the script provided in the src directory, 
+To run the solution (python script) one can use the command line and the script provided in the src directory, 
 
     sh main_command.sh
+    
+which runs a python3 script:
 
-which would run the python scripts one by one.
-The python scripts are supposed to run one by one, not simultaneously, since each script reduces the amount of the following searches. 
+    python3 ./py_scripts/kata_word_search.py
 
 ##### Libraries
 
-The following external library/package was used in the python scripts:
-Numpy
+The following external library/package was used in the python coding solution kata_word_search.py:
+numpy
