@@ -1,8 +1,7 @@
 # KATA_SEARCH
 Solution to Kata_word_search problem
 
-The problem description can be found here
-https://github.com/PillarTechnology/kata-word-search
+The problem description can be found ![here] ttps://github.com/PillarTechnology/kata-word-search
 
 Given two text files in the Input directory consisting of a list of words, and a series of rows of single-character lists representing the word search grid, the solution searches for the words in the grid of letters and returns a set of x,y coordinates for each letter of a word found.
 
