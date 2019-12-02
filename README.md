@@ -61,3 +61,8 @@ To run the solutions one can use the command line and the script provided in the
 
 which would run the python scripts one by one.
 The python scripts are supposed to run one by one, not simultaneously, since each script reduces the amount of the following searches. 
+
+##### Libraries
+
+The following external library/package was used in the python scripts:
+Numpy
