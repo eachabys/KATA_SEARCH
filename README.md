@@ -8,9 +8,9 @@ Given two text files in the Input directory consisting of a list of words, and a
 
 ### Input
 
-The first line of the text file will consist of the list of words to be found. 
+The first line of the text file (kata_words_input.txt) will consist of the list of words to be found. 
 
-The second text file represents a grid of letters, corresponding to the letters grid below. It will always be square, and all words in the list will always be present in the grid. Words may be located horizontally, vertically, diagonally, and both forwards and backwards. Words will never "wrap" around the edges of the grid.
+The second text file (kata_letters_input.txt) represents a grid of letters, corresponding to the letters grid below. It will always be square, and all words in the list will always be present in the grid. Words may be located horizontally, vertically, diagonally, and both forwards and backwards. Words will never "wrap" around the edges of the grid.
 
 The following is an example of the format of the input file:
 
