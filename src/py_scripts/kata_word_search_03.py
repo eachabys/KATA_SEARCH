@@ -191,7 +191,7 @@ def output(xy,words,words_all):
             if words_all[i] in output_prev[j] and words_all[i] not in outputx:
                 outputx.append(output_prev[j])
 
-    with open(output1, mode="w+") as outfile:
+    with open(output2, mode="w+") as outfile:
         for s in outputx:
             if len(s)<3:
                 outfile.write((s[0]+':'+s[1]+'\n'))
@@ -216,6 +216,7 @@ if __name__ == '__main__':
         words_all= filename3.read().splitlines()
     len1=len(letters)
     xy=[[0,0]]
-    output1="../tests/final_output/kata_words_output.txt"
+    output1="../tests/intermediate_outputs/kata_words_output.txt"
+    output2="../tests/final_output/kata_words_output.txt"
     output(xy,words,words_all)
     
