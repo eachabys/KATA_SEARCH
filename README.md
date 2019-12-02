@@ -47,4 +47,14 @@ Given the example input above, the following output can be found in the director
 
 In addition to the final output presented above, the tests directory contains intermediate outputs, since the program was broken into 3 parts for ease. 
 
+### SRC
 
+The solution to this problem was written in Python v.3.6. It was broken into 3 parts which can be found in the py_scripts subdirectory of the src (source) directory. Each python script performs searches in different directions:
+kata_word_search_01.py (performs only horizontal and vertical searches)
+kata_word_search_02.py (performs only diagonal search in the direction parallel to the main dexter diagonal)
+kata_word_search_03.py (performs only diagonal search in the direction perpendicular to the main dexter diagonal)
+
+To run the solutions one can use the 
+sh main_command.sh 
+script provided in the src directory, whcih would run the python scripts one by one.
+The python scripts are supposed to run one by one, not simultaneously, since each script reduces the amount of the following searches. 
