@@ -33,7 +33,9 @@ The following is an example of the format of the input file (kata_letters_input.
 
 ### Tests
 
-This directory contains the [final output](https://github.com/eachabys/KATA_SEARCH/tree/master/tests/test1_output) of the solution to the kata-word-search problem. 
+This directory contains the [test1 output](https://github.com/eachabys/KATA_SEARCH/tree/master/tests/test1_output), which is the exact solution to the kata-word-search problem provided the input data is [input](https://github.com/eachabys/KATA_SEARCH/tree/master/input).
+Both input words and input letters lists can be modified together or separately which could result in different outputs.
+
 The output of the program is the location of each word found, each on a separate line. The location will be represented as a series of x,y coordinates, where both x and y start at zero at the top-left of the grid. From this position both x and y will increase, i.e. they will never be negative.
 
 Given the example input above, the following output can be found in the directory tests/final_output, which represents the output to the word_search problem.  
