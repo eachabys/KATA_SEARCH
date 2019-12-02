@@ -9,9 +9,6 @@ Problem Description:Given a text file consisting of a list of words, and a serie
 of single-character lists representing the word search grid, this program should search for 
 the words in the grid and return a set of x,y coordinates for each word found.
 
-*This solution finds only the words which can be encountered in the grid of letters 
-either horizontally or vertically.
-
 Assumptions: 
 1.The search grid of letters is square.
 2.Both words and letters in the grid are CAPITAL (Uppercase)
