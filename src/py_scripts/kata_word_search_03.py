@@ -188,7 +188,7 @@ def output(xy,words,words_all):
     #sort output 
     for i in range(len(words_all)):
         for j in range(len(output_prev)):
-            if words_all[i] in output_prev[j]:
+            if words_all[i] in output_prev[j] and words_all[i] not in outputx:
                 outputx.append(output_prev[j])
 
     with open(output1, mode="w+") as outfile:
