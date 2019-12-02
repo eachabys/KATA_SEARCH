@@ -33,7 +33,7 @@ The following is an example of the format of the input file (kata_letters_input.
 
 ### Tests
 
-This directory contains the final output of the solution to the kata-word_problem. 
+This directory contains the [final output](https://github.com/eachabys/KATA_SEARCH/tree/master/tests/final_output) of the solution to the kata-word_problem. 
 The output of the program is the location of each word found, each on a separate line. The location will be represented as a series of x,y coordinates, where both x and y start at zero at the top-left of the grid. From this position both x and y will increase, i.e. they will never be negative.
 
 Given the example input above, the following output can be found in the directory tests/final_output, which represents the output to the word_search problem.  
@@ -50,7 +50,7 @@ In addition to the final output presented above, the tests directory contains in
 
 ### SRC
 
-The solution to this problem was written in Python v.3.6. It was broken into 3 parts which can be found in the py_scripts subdirectory of the src (source) directory. Each python script performs searches in different directions:
+The solution to this problem was written in Python v.3.6. It was broken into 3 parts which can be found in the [py_scripts](https://github.com/eachabys/KATA_SEARCH/tree/master/src/py_scripts) subdirectory of the [src](https://github.com/eachabys/KATA_SEARCH/tree/master/src) directory. Each python script performs searches in different directions:
 kata_word_search_01.py (performs only horizontal and vertical searches)
 kata_word_search_02.py (performs only diagonal search in the direction parallel to the main dexter diagonal)
 kata_word_search_03.py (performs only diagonal search in the direction perpendicular to the main dexter diagonal)
